@@ -1,9 +1,9 @@
-connection: "looker-private-demo"
+connection: "rob_argolis"
 label: " eCommerce"
-include: "/queries/queries*.view" # includes all queries refinements
-include: "/views/**/*.view" # include all the views
-include: "/gen_ai/**/*.view" # include all the views
-include: "/dashboards/*.dashboard.lookml" # include all the views
+include: "/thelookevent-master/queries/queries*.view" # includes all queries refinements
+include: "/thelookevent-master/views/**/*.view" # include all the views
+include: "/thelookevent-master/gen_ai/**/*.view" # include all the views
+include: "/thelookevent-master/dashboards/*.dashboard.lookml" # include all the views
 
 ############ Model Configuration #############
 
