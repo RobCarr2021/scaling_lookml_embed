@@ -2,8 +2,8 @@ import { IJoinConfig } from "@/app/components/Joins/types";
 import { GITHUB_PRODUCTION_BRANCH } from "@/app/constants";
 import GitHub from "github-api";
 import { getEnv } from "../../looker/utils";
-import { ColumnInfo } from "./createParquetFromCSV";
 import { generateLookML } from "./generateLookML";
+import { ColumnInfo } from "./route";
 
 export async function writeLookMLToGitHub({
   tableName,
