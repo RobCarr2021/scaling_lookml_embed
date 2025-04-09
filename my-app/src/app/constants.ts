@@ -1,0 +1,9 @@
+export const USER_ID_COOKIE = "u";
+export const LOOKER_USER_ID_COOKIE = "lu";
+export const USER_LOCALE_COOKIE = "l";
+export const USER_BRAND_COOKIE = "b";
+export const LOOKER_API_ACCESS_TOKEN_COOKIE = "a";
+export const LOOKER_API_EMBED_TOKENS = "e";
+export const COOKIE_MAX_AGE = 60 * 60 * 24 * 30; // 30 days
+// export const COOKIE_MAX_AGE = 60; // 1 minute
+export const GITHUB_PRODUCTION_BRANCH = "master";
